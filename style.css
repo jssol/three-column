@@ -14,7 +14,7 @@ html {
 }
 
 .main {
-    background: f2f2f2;
+    background: f1f1f1;
 }
 
 .footer{
@@ -24,10 +24,6 @@ html {
     background-color: rgb(20, 20, 32);
     padding: 0.3rem 1rem;
     margin-bottom: 0;
-}
-
-.attribution a{
-    color: #fff;
 }
 
 a {
@@ -71,7 +67,7 @@ p {
 }
 
 .main-item__link {
-    font-size: 1.4em;
+    font-size: 1.15em;
     font-weight: 700;
     text-decoration: none;
 }
