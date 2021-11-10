@@ -12,15 +12,8 @@ html {
     font-family: 'Lexend Deca', sans-serif;
     scroll-behavior: smooth;
 }
-<<<<<<< HEAD
-footer a{
-    color: #fff;
-}
-footer{
-=======
 
-footer {
->>>>>>> 622ef8ab5e53af7db006cd5d974ca0f1a9bd0203
+.footer{
     position: absolute;
     width: 100%;
     color: #fff;
@@ -28,7 +21,12 @@ footer {
     padding: 0.3rem 1rem;
     margin-bottom: 0;
 }
-button{
+
+.footer a{
+    color: #fff;
+}
+
+.button{
     border: none;
     height: 30px;
     width: 110px;
@@ -40,25 +38,12 @@ button{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-<<<<<<< HEAD
-.main-item__one button a {
-    color: hsl(31, 77%, 52%);
-}
-.main-item__two button a{
-    color: hsl(184, 100%, 22%);
-}
-.main-item__three button a{
-    color: hsl(179, 100%, 13%);
-}
-
-p{
-=======
 
 p {
->>>>>>> 622ef8ab5e53af7db006cd5d974ca0f1a9bd0203
     color: #fff;
     font-size: 15px;
 }
@@ -95,15 +80,18 @@ p {
 }
 
 .main-item__one {
+    color: hsl(31, 77%, 52%);
     background-color: hsl(31, 77%, 52%);
     border-radius: 1em 1em 0 0;
 }
 
 .main-item__two {
+    color: hsl(184, 100%, 22%);
     background-color: hsl(184, 100%, 22%);
 }
 
 .main-item__three {
+    color: hsl(179, 100%, 13%);
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 0 1em 1em;
 }
