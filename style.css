@@ -26,7 +26,7 @@ html {
     margin-bottom: 0;
 }
 
-.footer a{
+.attribution a{
     color: #fff;
 }
 
@@ -71,6 +71,8 @@ p {
 }
 
 .main-item__link {
+    font-size: 1.4em;
+    font-weight: 700;
     text-decoration: none;
 }
 
