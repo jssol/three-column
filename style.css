@@ -23,7 +23,7 @@ footer {
 
 p {
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.35em;
 }
 
 .sections {
@@ -40,6 +40,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 3em;
 }
 
 .main-item {
@@ -57,18 +58,12 @@ p {
 
 .main-item__one {
     background-color: hsl(31, 77%, 52%);
-    padding-left: 1rem;
-    padding-right: 1.5rem;
 }
 
 .main-item__two {
     background-color: hsl(184, 100%, 22%);
-    padding-left: 1rem;
-    padding-right: 1.5rem;
 }
 
 .main-item__three {
     background-color: hsl(179, 100%, 13%);
-    padding-left: 1rem;
-    padding-right: 1.5rem;
 }
