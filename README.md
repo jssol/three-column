@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jssol/three-column)
-- Live Site URL: [Add live site URL here](https://jssol.github.io/three-column/)
+- Solution URL: [https://github.com/jssol/three-column](https://github.com/jssol/three-column)
+- Live Site URL: [https://jssol.github.io/three-column](https://jssol.github.io/three-column)
 
 ## My process
 
