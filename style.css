@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.main {
+    background: f2f2f2;
+}
+
 .footer{
     position: absolute;
     width: 100%;
