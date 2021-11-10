@@ -8,13 +8,42 @@
 html{
     font-family: 'Lexend Deca', sans-serif;
 }
+footer a{
+    color: #fff;
+}
 footer{
     position: absolute;
     width: 100%;
     color: #fff;
     background-color: rgb(20, 20, 32);
     padding: 0.3rem 1rem;
+    margin-bottom: 0;
 }
+button{
+    border: none;
+    height: 30px;
+    width: 110px;
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+.main-item__one button a {
+    color: hsl(31, 77%, 52%);
+}
+.main-item__two button a{
+    color: hsl(184, 100%, 22%);
+}
+.main-item__three button a{
+    color: hsl(179, 100%, 13%);
+}
+
 p{
     color: #fff;
     font-size: 15px;
