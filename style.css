@@ -1,17 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
 
-*{
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-family: 'Lexend Deca', sans-serif;
+    scroll-behavior: smooth;
 }
+<<<<<<< HEAD
 footer a{
     color: #fff;
 }
 footer{
+=======
+
+footer {
+>>>>>>> 622ef8ab5e53af7db006cd5d974ca0f1a9bd0203
     position: absolute;
     width: 100%;
     color: #fff;
@@ -34,6 +43,7 @@ button{
 a{
     text-decoration: none;
 }
+<<<<<<< HEAD
 .main-item__one button a {
     color: hsl(31, 77%, 52%);
 }
@@ -45,10 +55,15 @@ a{
 }
 
 p{
+=======
+
+p {
+>>>>>>> 622ef8ab5e53af7db006cd5d974ca0f1a9bd0203
     color: #fff;
     font-size: 15px;
 }
-.sections{
+
+.sections {
     padding: 0 3rem;
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
@@ -56,27 +71,39 @@ p{
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
 }
-.main{
+
+.main {
     height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 3em;
 }
-.main-item{
+
+.main-item {
     height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0 1.5rem;
 }
-.main-item__one{
+
+.main-item__title {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.main-item__one {
     background-color: hsl(31, 77%, 52%);
-    padding-left: 1rem;
-    padding-right: 1.5rem;
+    border-radius: 1em 1em 0 0;
 }
-.main-item__two{
+
+.main-item__two {
     background-color: hsl(184, 100%, 22%);
-    padding-left: 1rem;
-    padding-right: 1.5rem;
 }
-.main-item__three{
+
+.main-item__three {
     background-color: hsl(179, 100%, 13%);
-    padding-left: 1rem;
-    padding-right: 1.5rem;
+    border-radius: 0 0 1em 1em;
 }
