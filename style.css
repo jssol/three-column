@@ -13,7 +13,11 @@ html {
     scroll-behavior: smooth;
 }
 
-footer {
+.main {
+    background: f1f1f1;
+}
+
+.footer{
     position: absolute;
     width: 100%;
     color: #fff;
@@ -21,19 +25,8 @@ footer {
     padding: 0.3rem 1rem;
     margin-bottom: 0;
 }
-button{
-    border: none;
-    height: 30px;
-    width: 110px;
-    margin-top: 25px;
-    background-color: #fff;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -73,16 +66,47 @@ p {
     font-weight: 900;
 }
 
+.main-item__link {
+    font-size: 1.05em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.main-item__button {
+    border: none;
+    height: 32px;
+    width: 120px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
 .main-item__one {
     background-color: hsl(31, 77%, 52%);
     border-radius: 1em 1em 0 0;
+}
+
+.main-item__one .main-item__link {
+    color: hsl(31, 77%, 52%);
 }
 
 .main-item__two {
     background-color: hsl(184, 100%, 22%);
 }
 
+.main-item__two .main-item__link {
+    color: hsl(184, 100%, 22%);
+}
+
 .main-item__three {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 0 1em 1em;
+}
+
+.main-item__three .main-item__link {
+    color: hsl(179, 100%, 13%);
 }
