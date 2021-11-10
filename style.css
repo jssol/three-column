@@ -12,15 +12,8 @@ html {
     font-family: 'Lexend Deca', sans-serif;
     scroll-behavior: smooth;
 }
-<<<<<<< HEAD
-footer a{
-    color: #fff;
-}
-footer{
-=======
 
 footer {
->>>>>>> 622ef8ab5e53af7db006cd5d974ca0f1a9bd0203
     position: absolute;
     width: 100%;
     color: #fff;
@@ -43,22 +36,8 @@ button{
 a{
     text-decoration: none;
 }
-<<<<<<< HEAD
-.main-item__one button a {
-    color: hsl(31, 77%, 52%);
-}
-.main-item__two button a{
-    color: hsl(184, 100%, 22%);
-}
-.main-item__three button a{
-    color: hsl(179, 100%, 13%);
-}
-
-p{
-=======
 
 p {
->>>>>>> 622ef8ab5e53af7db006cd5d974ca0f1a9bd0203
     color: #fff;
     font-size: 15px;
 }
