@@ -23,7 +23,7 @@ footer {
 
 p {
     color: #fff;
-    font-size: 1.35em;
+    font-size: 15px;
 }
 
 .sections {
@@ -58,6 +58,7 @@ p {
 
 .main-item__one {
     background-color: hsl(31, 77%, 52%);
+    border-radius: 1em 1em 0 0;
 }
 
 .main-item__two {
@@ -66,4 +67,5 @@ p {
 
 .main-item__three {
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 1em 1em;
 }
