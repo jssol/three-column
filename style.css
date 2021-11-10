@@ -26,19 +26,6 @@ html {
     color: #fff;
 }
 
-.button{
-    border: none;
-    height: 30px;
-    width: 110px;
-    margin-top: 25px;
-    background-color: #fff;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
 a {
     text-decoration: none;
 }
@@ -79,19 +66,45 @@ p {
     font-weight: 900;
 }
 
+.main-item__link {
+    text-decoration: none;
+}
+
+.main-item__button {
+    border: none;
+    height: 30px;
+    width: 110px;
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
 .main-item__one {
-    color: hsl(31, 77%, 52%);
     background-color: hsl(31, 77%, 52%);
     border-radius: 1em 1em 0 0;
 }
 
+.main-item__one .main-item__link {
+    color: hsl(31, 77%, 52%);
+}
+
 .main-item__two {
-    color: hsl(184, 100%, 22%);
     background-color: hsl(184, 100%, 22%);
 }
 
+.main-item__two .main-item__link {
+    color: hsl(184, 100%, 22%);
+}
+
 .main-item__three {
-    color: hsl(179, 100%, 13%);
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 0 1em 1em;
+}
+
+.main-item__three .main-item__link {
+    color: hsl(179, 100%, 13%);
 }
