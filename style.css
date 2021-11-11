@@ -18,11 +18,17 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: 100vw;
     overflow-x: hidden;
 }
 
 .main {
     background: #f1f1f1;
+    width: inherit;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer{
@@ -53,12 +59,6 @@ p {
     -o-border-radius: 2rem;
 }
 
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .main-item {
     height: 20rem;
     display: flex;
@@ -77,34 +77,32 @@ p {
 }
 
 .main-item__link {
-    font-size: 1.05em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
     font-weight: 600;
     text-decoration: none;
-}
-
-.main-item__button {
     cursor: pointer;
     border: none;
     height: 32px;
     width: 120px;
     margin-top: 20px;
     background-color: #fff;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
 }
 
-.main-item__button:hover {
-    border: solid 4px #fff;
-    background: transparent;
-    transition: all ease-in 300ms;
-}
-
-.main-item__button:hover .main-item__link {
-    color: #fff;
-    transition: color ease-in-out 300ms;
+.main-item__link:hover {
+    border: solid 3px #f9f9f9;
+    background: #ffffff46;
+    transition: all ease-out 300ms;
+    color: #f9f9f9 !important;
 }
 
 .main-item__one {
@@ -142,6 +140,7 @@ p {
     .sections {
         display: flex;
         flex-direction: row;
+        height: 67.5vh;
         justify-content: center;
         align-items: center;
     }
@@ -152,6 +151,7 @@ p {
 
     .main-item {
         padding: 1.5rem 2.5rem;
+        height: inherit;
     }
 
     .main-item__one {
@@ -167,11 +167,8 @@ p {
     }
 
     .main-item__link {
-        font-size: 1.5em;
-        font-weight: 700;
-    }
-
-    .main-item__button {
+        font-size: 1.3em;
+        font-weight: 600;
         width: 140px;
         height: 36px;
         border-radius: 18px;
